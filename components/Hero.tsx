@@ -1,7 +1,6 @@
 import React from 'react';
 import { AFFILIATE_LINK, BANNER_IMAGE_URL, EVENT_NAME } from '../constants';
 import { Button } from './Button';
-import { Countdown } from './Countdown';
 import { Shield, CheckCircle, Calendar } from 'lucide-react';
 
 export const Hero: React.FC = () => {
@@ -80,10 +79,6 @@ export const Hero: React.FC = () => {
             <div className="flex items-center">
                 <Shield className="w-5 h-5 text-green-500 mr-2" /> Secure Stream
             </div>
-        </div>
-
-        <div className="w-full mt-16 border-t border-slate-800 pt-10">
-            <Countdown />
         </div>
       </div>
     </div>
